@@ -7,15 +7,12 @@
 #include "functions.h"
 
 int main(){
-
     int utilizadores,flag, recetor;
     char* command;
     Queue controlo;  
 
     scanf("%d",&utilizadores);
-
     command=new_command();
-
     controlo=queue_init_all(utilizadores);
 
     /* Comandos do Programa */
@@ -74,9 +71,6 @@ int main(){
     }while(strcmp(command,"quit")!=0);
     
     sai(controlo, utilizadores);
-    
-    delete_string(command);
-    
+    delete_string(command);   
     return 0;
-
 }

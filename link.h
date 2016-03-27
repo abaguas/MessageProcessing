@@ -34,5 +34,3 @@ void delete_link(Link link); /* recebe um Link e elimina-o */
 
 int link_null(Link link); /* recebe um Link e verifica se e igual a NULL */
 
-
-

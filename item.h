@@ -41,4 +41,3 @@ void delete_item(Item item); /* recebe um Item e elimina-o */
 
 int compara_msg (const void * c, const void * d); /* recebe dois items e compara-os retornando -1 caso d seja maior e 1 caso c seja maior */
 
-
